@@ -1,1 +1,13 @@
-/* ALLA SIDOR */
+body {
+  background-color: #213555;
+  color: #f0f0f0;
+}
+
+.mid-container {
+  background-color: #e5d283;
+  color: #213555;
+}
+
+footer {
+  background-color: #4f709c;
+}
