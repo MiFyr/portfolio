@@ -60,9 +60,20 @@ p {
 }
 
 .card-img {
-  max-width: 270px;
+  width: 270px;
+  height: 200px;
+  object-fit: cover;
   float: left;
   padding-right: 1rem;
+}
+
+.project-link {
+  color: #213555;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  color: #4f709c;
 }
 
 .blue-box {
@@ -85,10 +96,10 @@ footer {
   margin: 2rem;
 }
 
-a {
+.logo {
   color: #17253b;
 }
 
-a:hover {
+.logo:hover {
   color: #e5d283;
 }
