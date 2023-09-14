@@ -91,13 +91,14 @@ footer {
   box-shadow: 0px -3px 7px rgb(30, 32, 43);
 }
 
-.fa-brands {
+i {
   font-size: 3rem;
   margin: 2rem;
 }
 
 .logo {
   color: #17253b;
+  text-decoration: none;
 }
 
 .logo:hover {
