@@ -1,7 +1,7 @@
 body {
   background-color: #213555;
   color: #f0f0f0;
-  margin: 0px;
+  margin: 0px; /*margin 0 to not leave stripes on the edges*/
 }
 
 h1 {
@@ -10,6 +10,7 @@ h1 {
   margin: 3rem 0rem 1rem 1rem;
 }
 
+/*Subheadings*/
 h2 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 2.5rem;
@@ -24,45 +25,48 @@ p {
   min-height: 100vh;
   display: flex;
   gap: 1rem;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column; /*sections stack top to bottom*/
+  align-items: center; /*page content centered*/
 }
 
 .container {
-  flex: 1;
-  max-width: 1200px;
+  flex: 1; /*shrink and grow with screen*/
+  max-width: 1200px; /*content won't stretch out over big screens*/
   margin: 1rem;
 }
 
+/*Profile picture*/
 #profile-img {
   max-width: 300px;
-  float: right;
+  float: right; /*floats to the right of presentation text*/
   margin-left: 2rem;
   margin-bottom: 1rem;
 }
 
+/*Yellow container in the middle*/
 .mid-container {
   background-color: #e5d283;
   color: #213555;
-  width: 100vw;
+  width: 100vw; /*yellow background will stretch over screen*/
   display: flex;
-  justify-content: center;
+  justify-content: center; /*content centered in yellow section*/
 }
 
 .cards {
-  display: flex;
+  display: flex; /*cards go next to each other*/
   gap: 2rem;
 }
 
 .card {
-  flex: 1;
+  flex: 1; /*for screen responsiveness*/
   margin-bottom: 2rem;
 }
 
+/*Images in the Project section*/
 .card-img {
   width: 270px;
   height: 200px;
-  object-fit: cover;
+  object-fit: cover; /*images will be same size without distorting*/
   float: left;
   padding-right: 1rem;
 }
@@ -73,9 +77,11 @@ p {
 }
 
 .project-link:hover {
+  /*to clarify links on hover*/
   color: #4f709c;
 }
 
+/*Lighter blue box in bottom section*/
 .blue-box {
   background-color: #4f709c;
   padding: 2rem 5rem;
@@ -87,20 +93,22 @@ footer {
   background-color: #4f709cb7;
   width: 100vw;
   flex: 1;
-  text-align: center;
+  text-align: center; /*icons centered*/
   box-shadow: 0px -3px 7px rgb(30, 32, 43);
 }
 
+/*Font Awesome icons*/
 i {
   font-size: 3rem;
   margin: 2rem;
 }
-
+/*for icon links*/
 .logo {
   color: #17253b;
   text-decoration: none;
 }
 
 .logo:hover {
+  /*icons/links change color on hover*/
   color: #e5d283;
 }
