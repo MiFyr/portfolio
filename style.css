@@ -1,6 +1,7 @@
 body {
   background-color: #213555;
   color: #f0f0f0;
+  margin: 0px;
 }
 
 h1 {
@@ -30,12 +31,14 @@ p {
 .container {
   flex: 1;
   max-width: 1200px;
+  margin: 1rem;
 }
 
 #profile-img {
   max-width: 300px;
   float: right;
   margin-left: 2rem;
+  margin-bottom: 1rem;
 }
 
 .mid-container {
@@ -46,10 +49,27 @@ p {
   justify-content: center;
 }
 
+.cards {
+  display: flex;
+  gap: 2rem;
+}
+
+.card {
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.card-img {
+  max-width: 270px;
+  float: left;
+  padding-right: 1rem;
+}
+
 .blue-box {
   background-color: #4f709c;
   padding: 2rem 5rem;
   margin: 5rem;
+  box-shadow: 10px 10px 20px rgb(30, 32, 43);
 }
 
 footer {
@@ -57,8 +77,18 @@ footer {
   width: 100vw;
   flex: 1;
   text-align: center;
+  box-shadow: 0px -3px 7px rgb(30, 32, 43);
 }
 
 .fa-brands {
   font-size: 3rem;
+  margin: 2rem;
+}
+
+a {
+  color: #17253b;
+}
+
+a:hover {
+  color: #e5d283;
 }
