@@ -39,6 +39,7 @@ p {
 #profile-img {
   max-width: 300px;
   float: right; /*floats to the right of presentation text*/
+  border-radius: 10px;
   margin-left: 2rem;
   margin-bottom: 1rem;
 }
